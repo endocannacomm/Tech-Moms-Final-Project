@@ -1,0 +1,85 @@
+body {
+    font-family: Candara;
+}
+
+nav {
+    font-size: 25px;
+    color: cornflowerblue;
+    -webkit-text-stroke: 0.5px salmon;
+}
+
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family: 'papyrus';
+    -webkit-text-stroke: 1px salmon;
+    text-align: center;
+}
+
+.flex-parent1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: salmon;
+    font-family: 'papyrus';
+    -webkit-text-stroke: 0.65px cornflowerblue;
+    margin-left: 75px;
+}
+
+p {
+    font-size: 18px;
+    color: midnightblue;
+    margin-left: 75px;
+    margin-right: 75px;
+
+}
+
+ul {
+    font-size: 18px;
+    color: midnightblue;
+    list-style-type: none;
+    margin-left: 38px;
+}
+
+ul li:before {
+    content: '~';
+}
+
+.imagescontainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.imagescontainer img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.flex-parent2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.aboutmepic {
+    height: 500px;
+    width: auto;
+    border: 10px inset salmon;
+}
+
+.flex-parent3 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.aboutalaskapic {
+    height: auto;
+    width: 600px;
+    border: 10px inset brown;
+}
