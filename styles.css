@@ -27,6 +27,11 @@ h1 {
     text-align: center;
 }
 
+.stackedcrochetpics {
+    display: flex;
+    flex-direction: column;
+}
+
 .hobbiespics {
     display: flex;
 }
@@ -162,4 +167,29 @@ footer h3 {
     font-family: papyrus;
     color: salmon;
     -webkit-text-stroke: 0.5px cornflowerblue;
+}
+
+.grid-container-element {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    width: 600px;
+    margin-left: 25px;
+    grid-gap: none;
+    border: none;
+
+}
+
+.grid-child-element-1 .grid-child-element-2 .grid-child-element-3 {
+    height: 400px;
+    width: 200px;
+    margin: none;
+    border: none;
+}
+
+.grid-child-element-2 {
+    align-items: center;
+    margin: none;
+    gap: none;
+
 }
